@@ -1,0 +1,10 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "description": "Google's stock price over time.",
+  "data": {"url": "https://raw.githubusercontent.com/krajendram/krajendram.github.io/main/mgdp.csv"},
+  "mark": "line",
+  "encoding": {
+    "x": {"field": "date", "type": "temporal"},
+    "y": {"field": "Gross Value Added - Monthly (Index 1dp) :CVM SA", "type": "quantitative"}
+  }
+}
